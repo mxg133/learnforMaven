@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Chicken/Chicken.iml" filepath="$PROJECT_DIR$/Chicken/Chicken.iml" />
+      <module fileurl="file://$PROJECT_DIR$/learnforMaven.iml" filepath="$PROJECT_DIR$/learnforMaven.iml" />
+    </modules>
+  </component>
+</project>
