@@ -3,7 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Chicken/Chicken.iml" filepath="$PROJECT_DIR$/Chicken/Chicken.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Parent/Parent.iml" filepath="$PROJECT_DIR$/Parent/Parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/learnforMaven.iml" filepath="$PROJECT_DIR$/learnforMaven.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pro1/pro1.iml" filepath="$PROJECT_DIR$/pro1/pro1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pro2/pro2.iml" filepath="$PROJECT_DIR$/pro2/pro2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pro4/pro4.iml" filepath="$PROJECT_DIR$/pro4/pro4.iml" />
     </modules>
   </component>
 </project>

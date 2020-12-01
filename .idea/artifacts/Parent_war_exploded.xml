@@ -1,0 +1,23 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Parent:war exploded">
+    <output-path>$PROJECT_DIR$/Parent/target/Parent</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>Parent</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Parent" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/Parent/target/Parent/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="Parent/web/Web" />
+    </root>
+  </artifact>
+</component>

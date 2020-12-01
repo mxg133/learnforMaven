@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>org.example</groupId>
+  <artifactId>Parent</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <!-- 若要作为父工程 一般是统一管理junit版本 -->
+  <packaging>pom</packaging>
+
+  <!-- 配置聚合 -->
+  <modules>
+    <!-- 指定各个子工程的相对路径 -->
+    <module>../pro4</module>
+  </modules>
+  <!-- 配置依赖的管理 -->
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>junit</groupId>
+        <artifactId>junit</artifactId>
+        <version>4.11</version>
+        <scope>test</scope>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+</project>
